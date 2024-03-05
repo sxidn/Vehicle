@@ -7,7 +7,6 @@ import jakarta.persistence.EntityManager;
 
 @ApplicationScoped
 public class CustomerRepository {
-
     @Inject
     EntityManager em;
 
